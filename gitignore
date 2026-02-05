@@ -1,0 +1,22 @@
+# OS junk
+
+Thumbs.db
+.DS_Store
+
+# Editors
+
+*.swp
+*.bak
+
+# Logs
+
+*.log
+
+# Matlab
+
+*.asv
+*.m~
+
+# Packet captures (add selectively later)
+
+*.pcapng
