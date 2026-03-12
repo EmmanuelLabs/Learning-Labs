@@ -1,0 +1,4 @@
+# merge conflict demo
+
+router configuration version 1
+blah blah blah
