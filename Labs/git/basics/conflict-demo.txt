@@ -1,4 +1,6 @@
 # merge conflict demo
 
-router configuration version 2 -- firewall added
+
+router configuration version 2 -- qos and firewall added
 blah blah blah
+
