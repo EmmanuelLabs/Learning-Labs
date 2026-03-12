@@ -1,6 +1,4 @@
 # merge conflict demo
 
-router configuration version 1
+router configuration version 2 -- qos added
 blah blah blah
-
-router configuration version 2 -- QoS added
