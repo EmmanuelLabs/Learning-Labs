@@ -1,4 +1,4 @@
 # merge conflict demo
 
-router configuration version 1
+router configuration version 2 -- firewall added
 blah blah blah
