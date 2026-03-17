@@ -1,1 +1,3 @@
- # Network Monitoring Tool 
+## Router Telemetry
+
+Routers periodically send cpu, memory, and interface statistics.
