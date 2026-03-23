@@ -6,8 +6,7 @@ A developer commits something incorrect.
 The bad commit gets pushed to GitHub.
 Files are accidentally deleted.
 The team must recover using revert, reset, restore, and reflog.
-No toy examples here. This is the sort of mess that happens in actual repositories.
-Lab 03 — Git Recovery and Damage Control
+
 Objective
 The objective of this lab is to understand how Git handles mistakes in a repository and how developers can safely recover from them. The experiment demonstrates methods for undoing incorrect commits, restoring deleted files, and reversing changes that have already been pushed to a remote repository.
 Step 1 — Prepare the Repository
