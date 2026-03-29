@@ -1,13 +1,13 @@
 # BRANCH COLLABORATION MECHANICS
 
-# Branching Fundamentals.
+## Branching Fundamentals.
 
 A branch is just a pointer to a commit. A repository looks just like a chain of commits:
-A to B to C 
+A -> B -> C 
 
 Each commit stores:
-    - snapshot of the project
-	- a reference to its parent
+ - snapshot of the project
+- a reference to its parent
 
 The branch name simply points to the latest commit. When you create a branch, Git does not DUPLICATE
 YOUR FILES. It just creates another pointer. Both branches reference the same commit. When you commit
@@ -76,15 +76,18 @@ git stops and reports: CONFLICT (content): Merge conflict in docs/qos.md  Automa
 
 Now git inserts conflict markers into the file:
 
+```
+
 <<<<<<<< HEAD
 QoS guarantees latency below 50ms
----------
+=========
 QoS guarantees latency below 20ms
 >>>>>>>> feature 
+```
 
 Meaning:
-    HEAD = your current branch version
-	feature = incoming branch version
+- HEAD = your current branch version
+- feature = incoming branch version
 
 You must manually edit the file to the correct final result:
     QoS guarantees latency below 20ms under optimized conditions
