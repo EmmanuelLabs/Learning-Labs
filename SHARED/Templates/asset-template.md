@@ -1,0 +1,2 @@
+## How to use assets in markdown
+![A demonstration showing the correct syntax for embedding images in markdown, with the format ![alt text](image-path) displayed against a clean, neutral background. The example uses descriptive placeholder text to guide users in creating accessible image descriptions for screen readers.](path-to-image)
